@@ -1,5 +1,6 @@
 { 
     "permissions": {
+        "allow": ["Bash(find ./src *)"],
         "deny": ["Read(./.env.*)"],
         "defaultMode": "plan"
     },
