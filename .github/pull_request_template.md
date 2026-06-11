@@ -22,7 +22,7 @@
 
 - [ ] 로컬 작동 확인
 - [ ] 빌드 통과 (`pnpm run build`)
-- [ ] 린트 통과 (`npm run lint`)
+- [ ] 린트 통과 (`pnpm run lint`)
 
 ### Additional Notes
 
