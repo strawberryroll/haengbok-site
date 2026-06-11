@@ -1,10 +1,9 @@
-{ 
-    "permissions": {
-        "allow": ["Bash(find ./src *)"],
-        "deny": ["Read(./.env.*)"],
-        "defaultMode": "plan"
-    },
-    "outputStyle": "Learning",
-    "language": "korean"
-
+{
+  "permissions": {
+    "allow": ["Bash(find ./src *)"],
+    "deny": ["Read(./.env.*)"],
+    "defaultMode": "plan"
+  },
+  "outputStyle": "Learning",
+  "language": "korean"
 }
