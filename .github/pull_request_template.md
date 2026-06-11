@@ -17,7 +17,6 @@
   > `feat/*` 기능 구현, `fix/*` 버그 수정, `style/*` UI/스타일, `refactor/*` 개선, `docs/*` 문서, `chore/*` 설정/환경
 - [ ] Base Branch 확인
 - [ ] 적절한 Label 지정
-- [ ] Assignee 및 Reviewer 지정
 
 ### Test
 
