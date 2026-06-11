@@ -19,3 +19,12 @@ body:
         - [ ]
     validations:
       required: false
+  - type: textarea
+    id: config-files
+    attributes:
+      label: '🔧 설정 파일'
+      description: '수정되거나 생성된 설정 파일을 나열해주세요.'
+      value: |
+        - `파일 경로`
+    validations:
+      required: false
