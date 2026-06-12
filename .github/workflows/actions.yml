@@ -1,0 +1,29 @@
+name: Github Actions로 테스트 자동화
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Github Repository 불러오기
+        uses: actions/checkout@v6
+
+      - name: pnpm 설치하기
+        uses: pnpm/action-setup@v6
+
+      - name: Node.js 설치하기
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: 'pnpm'
+
+      - name: 의존성(라이브러리) 설치
+        run: pnpm install --frozen-lockfile
+
+      - name: ESLint 실행하기
+        run: pnpm lint
+
+      - name: 빌드 실행하기
+        run: pnpm build
