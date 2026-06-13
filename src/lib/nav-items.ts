@@ -34,8 +34,8 @@ export const navItems: NavItem[] = [
     type: 'group',
     label: '예배 안내',
     children: [
-      { label: '예배 시간', href: '/about/worship/schedule' },
-      { label: '주보', href: '/about/worship/bulletin' },
+      { label: '예배 시간', href: '/worship/schedule' },
+      { label: '주보', href: '/worship/bulletin' },
     ],
   },
   { type: 'link', label: '말씀', href: '/sermon' },
