@@ -25,10 +25,14 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
       return next;
     });
   }
+  function handleClose() {
+    onClose();
+    setOpenGroups(new Set());
+  }
   return (
     <>
       <div
-        onClick={onClose}
+        onClick={handleClose}
         className={cn(
           'fixed inset-0 z-40 bg-charcoal/50 transition-opacity duration-300',
           isOpen ? 'opacity-100' : 'pointer-events-none opacity-0',
@@ -43,7 +47,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
       >
         <div className="flex h-16 items-center justify-between">
           <h2 className="text-lg">행복한 교회</h2>
-          <button type="button" onClick={onClose}>
+          <button type="button" onClick={handleClose}>
             <X size={20} className="text-charcoal/30" />
           </button>
         </div>
@@ -53,7 +57,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
             {navItems.map((item) =>
               item.type === 'link' ? (
                 <li key={item.href}>
-                  <Link onClick={onClose} href={item.href}>
+                  <Link onClick={handleClose} href={item.href}>
                     {item.label}
                   </Link>
                 </li>
@@ -63,7 +67,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                     item={item}
                     isOpen={openGroups.has(item.id)}
                     onToggle={() => toggleGroup(item.id)}
-                    onLinkClick={onClose}
+                    onLinkClick={handleClose}
                   />
                 </li>
               ),
