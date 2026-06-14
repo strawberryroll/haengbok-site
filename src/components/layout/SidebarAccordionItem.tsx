@@ -25,9 +25,11 @@ export default function SidebarAccordionItem({
       >
         <span>{item.label}</span>
         <ChevronRight
-          className={
-            isOpen ? 'rotate-90 transition-transform' : 'transition-transform'
-          }
+          size={16}
+          className={cn(
+            'text-charcoal/80',
+            isOpen ? 'rotate-90 transition-transform' : 'transition-transform',
+          )}
         />
       </button>
       <div
@@ -42,7 +44,7 @@ export default function SidebarAccordionItem({
         <ul className="min-h-0">
           {item.children.map((child) => (
             <li key={child.href}>
-              <Link href={child.href} onClick={onLinkClick}>
+              <Link className="text-sm" href={child.href} onClick={onLinkClick}>
                 {child.label}
               </Link>
             </li>

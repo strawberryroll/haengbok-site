@@ -1,6 +1,6 @@
 'use client';
 
-import { Church, Menu, X } from 'lucide-react';
+import { Church, Menu } from 'lucide-react';
 import { useState } from 'react';
 import Sidebar from './Sidebar';
 import Link from 'next/link';
@@ -11,15 +11,15 @@ export default function Header() {
   return (
     <header className="relative flex h-16 items-center justify-between px-6">
       <Link href="/">
-        <Church />
+        <Church size={20} />
       </Link>
       <Link href="/">
-        <h2 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+        <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-lg">
           행복한 교회
-        </h2>
+        </h1>
       </Link>
       <button type="button" onClick={handleToggleSidebar}>
-        <Menu />
+        <Menu size={20} />
       </button>
       <Sidebar isOpen={isOpen} onClose={handleToggleSidebar} />
     </header>

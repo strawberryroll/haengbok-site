@@ -37,18 +37,19 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
 
       <div
         className={cn(
-          'fixed inset-y-0 right-0 z-50 w-80 max-w-[80vw] bg-white p-10 shadow-xl transition-transform duration-500 ease-in-out',
+          'fixed inset-y-0 right-0 z-50 w-[80vw] max-w-[80vw] bg-white px-8 shadow-xl transition-transform duration-500 ease-in-out',
           isOpen ? 'translate-x-0' : 'translate-x-full',
         )}
       >
-        <div className="flex justify-between">
-          <h2>행복한 교회</h2>
+        <div className="flex h-16 items-center justify-between">
+          <h2 className="text-lg">행복한 교회</h2>
           <button type="button" onClick={onClose}>
-            <X />
+            <X size={20} className="text-charcoal/30" />
           </button>
         </div>
-        <nav>
-          <ul>
+        <hr className="-mx-8 border-charcoal/10" />
+        <nav className="pt-5">
+          <ul className="flex flex-col gap-5">
             {navItems.map((item) =>
               item.type === 'link' ? (
                 <li key={item.href}>
