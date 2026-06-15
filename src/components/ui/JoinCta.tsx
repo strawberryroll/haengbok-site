@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Button, { buttonVariants } from './Button';
+import { buttonVariants } from './Button';
 import { cn } from '@/lib/utils';
 
 export default function JoinCta() {
