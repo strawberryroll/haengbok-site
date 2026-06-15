@@ -31,6 +31,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
   }
   return (
     <>
+      {/* 오버레이 레이어 */}
       <div
         onClick={handleClose}
         className={cn(
@@ -39,6 +40,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
         )}
       />
 
+      {/* 콘텐츠 */}
       <div
         className={cn(
           'fixed inset-y-0 right-0 z-50 w-[80vw] max-w-[80vw] bg-white px-8 shadow-xl transition-transform duration-500 ease-in-out',
