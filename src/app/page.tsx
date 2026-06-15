@@ -1,5 +1,5 @@
+import Hero from '@/components/home/Hero';
+
 export default function Home() {
-  return (
-    <div>홈페이지입니다</div>
-  );
+  return <Hero />;
 }
