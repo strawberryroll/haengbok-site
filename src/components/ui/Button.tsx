@@ -11,6 +11,7 @@ export const buttonVariants = cva(
         secondary: 'bg-charcoal text-cream hover:bg-charcoal/90',
         outline:
           'border border-2 border-charcoal/30 bg-transparent text-charcoal hover:bg-charcoal/10',
+        ghost: 'bg-transparent hover:bg-charcoal/5',
       },
       size: {
         default: 'h-9 px-4 py-2 has-[>svg]:px-3',
@@ -18,7 +19,7 @@ export const buttonVariants = cva(
         sm: 'h-8 gap-1.5 rounded-2xl px-3 has-[>svg]:px-2.5',
         lg: 'h-12 rounded-2xl text-base font-bold px-6 has-[>svg]:px-4',
         icon: 'size-9',
-        'icon-xs': "size-6 rounded-md [&_svg:not([class*='size-'])]:size-3",
+        'icon-xs': "size-6 rounded-2xl [&_svg:not([class*='size-'])]:size-3",
         'icon-sm': 'size-8',
         'icon-lg': 'size-10',
       },

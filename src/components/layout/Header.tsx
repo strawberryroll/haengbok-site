@@ -4,6 +4,7 @@ import { Church, Menu } from 'lucide-react';
 import { useState } from 'react';
 import Sidebar from './Sidebar';
 import Link from 'next/link';
+import Button from '@/components/ui/Button';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,9 +19,14 @@ export default function Header() {
           행복한 교회
         </h1>
       </Link>
-      <button type="button" onClick={handleToggleSidebar}>
-        <Menu size={20} />
-      </button>
+      <Button
+        type="button"
+        variant="ghost"
+        size="icon-sm"
+        onClick={handleToggleSidebar}
+      >
+        <Menu className="size-4" />
+      </Button>
       <Sidebar isOpen={isOpen} onClose={handleToggleSidebar} />
     </header>
   );

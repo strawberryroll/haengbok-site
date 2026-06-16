@@ -27,7 +27,7 @@ const valuesData: ValueItem[] = [
 
 export default function Values() {
   return (
-    <section className="px-6 py-13">
+    <section className="bg-ivory px-6 py-13">
       <p className="mb-2 text-xs font-semibold text-cream">VISION</p>
       <h2 className="mb-8 text-2xl">비전 & 핵심 가치</h2>
 
