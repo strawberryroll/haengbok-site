@@ -1,6 +1,8 @@
 @import 'tailwindcss';
 
 @theme {
+  --color-ivory: #fafaf5;
+  --color-cream-light: #fdf6e8;
   --color-cream: #e8c99a;
   --color-charcoal: #1a1208;
   --color-description: #6b5c45;

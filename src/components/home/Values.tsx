@@ -1,5 +1,5 @@
 import { HandHeart, Handshake, type LucideIcon, Sprout } from 'lucide-react';
-import { Card, CardDescription, CardTitle } from '../ui/Card';
+import { Card, CardDescription, CardTitle } from '@/components/ui/Card';
 
 interface ValueItem {
   icon: LucideIcon;
@@ -30,11 +30,12 @@ export default function Values() {
     <section className="px-6 py-13">
       <p className="mb-2 text-xs font-semibold text-cream">VISION</p>
       <h2 className="mb-8 text-2xl">비전 & 핵심 가치</h2>
+
       <div className="flex flex-col gap-4">
         {valuesData.map((item) => (
           <Card
             key={item.title}
-            className="flex-row items-center gap-6 border-cream/80 bg-cream/10 p-6"
+            className="flex-row items-center gap-6 bg-cream/10 p-6"
           >
             <div className="shrink-0">
               <item.icon size={32} className="text-cream" />
