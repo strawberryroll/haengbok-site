@@ -6,6 +6,7 @@ import { useState } from 'react';
 import SidebarAccordionItem from './SidebarAccordionItem';
 import { X } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import Button from '@/components/ui/Button';
 
 type SidebarProps = {
   isOpen: boolean;
@@ -49,9 +50,14 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
       >
         <div className="flex h-16 items-center justify-between">
           <h2 className="text-lg">행복한 교회</h2>
-          <button type="button" onClick={handleClose}>
-            <X size={20} className="text-charcoal/30" />
-          </button>
+          <Button
+            size="icon-xs"
+            variant="ghost"
+            type="button"
+            onClick={handleClose}
+          >
+            <X className="size-4 text-charcoal/30" />
+          </Button>
         </div>
         <hr className="-mx-8 border-charcoal/10" />
         <nav className="pt-5">

@@ -64,7 +64,7 @@ export default function Welcome() {
           <div key={item.title} className="flex gap-4">
             <div className="flex flex-col items-center">
               <span className="rounded-full border border-cream/30 bg-cream-light p-2">
-                <item.icon size={18} className="text-cream" />
+                <item.icon size={18} className="text-gold" />
               </span>
               {index < welcomeData.length - 1 && (
                 <div className="my-1 w-px flex-1 bg-cream" />
@@ -87,7 +87,7 @@ export default function Welcome() {
           <div className="flex flex-col gap-2 text-sm text-charcoal/80">
             {checklistData.map((item) => (
               <p key={item} className="flex items-center gap-2">
-                <Check size={14} className="shrink-0 text-cream" />
+                <Check size={14} className="shrink-0 text-gold" />
                 {item}
               </p>
             ))}

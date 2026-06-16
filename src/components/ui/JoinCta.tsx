@@ -16,7 +16,7 @@ export default function JoinCta() {
           </p>
         </div>
       </div>
-      <div className="round flex w-full flex-col items-center gap-2 px-10">
+      <div className="round flex w-full flex-col items-center gap-2 px-6">
         <Link
           href="/about/new-member"
           className={cn(
