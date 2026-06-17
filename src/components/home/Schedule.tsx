@@ -16,7 +16,7 @@ const scheduleData: ScheduleGroup[] = [
     ],
   },
   {
-    category: '다음세대',
+    category: '다음 세대',
     worships: [
       { title: '어린이 예배', place: '주일 · 2층', time: '오전 9:30' },
       { title: '학생회 예배', place: '주일 · 2층', time: '오후 2:00' },
