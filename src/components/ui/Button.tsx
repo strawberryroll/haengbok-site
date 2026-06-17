@@ -10,7 +10,7 @@ export const buttonVariants = cva(
         default: 'bg-cream text-charcoal hover:bg-cream/90',
         secondary: 'bg-charcoal text-cream hover:bg-charcoal/90',
         outline:
-          'border border-2 border-charcoal/30 bg-transparent text-charcoal hover:bg-charcoal/10',
+          'border border-charcoal/30 bg-transparent text-charcoal hover:bg-charcoal/10',
         ghost: 'bg-transparent hover:bg-charcoal/5',
       },
       size: {
