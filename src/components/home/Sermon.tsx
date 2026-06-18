@@ -20,7 +20,7 @@ export default function Sermon() {
         )}
       >
         <Image
-          className="mt-px h-auto"
+          className="mt-px"
           src="/icons/yt_icon.png"
           alt="youtube"
           width={25}
