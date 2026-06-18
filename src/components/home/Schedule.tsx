@@ -35,7 +35,7 @@ const scheduleData: ScheduleGroup[] = [
 
 export default function Schedule() {
   return (
-    <section className="bg-warm-white px-6 py-13">
+    <section className="bg-ivory px-6 py-13">
       <p className="mb-2 text-xs font-semibold text-cream">SCHEDULE</p>
       <h2 className="mb-8 text-2xl">예배 시간 안내</h2>
 
@@ -45,7 +45,7 @@ export default function Schedule() {
             <span className="inline-block h-5 w-1 rounded-2xl bg-cream" />
             {data.category}
           </h3>
-          <Card className="gap-0 border-cream/60">
+          <Card className="gap-0 border-cream/60 bg-warm-white">
             {data.worships.map((item, index) => (
               <React.Fragment key={item.title}>
                 <ScheduleRow

@@ -40,7 +40,7 @@ const checklistData = ['성경책 없어도 괜찮아요', '편한 복장으로 
 
 export default function Welcome() {
   return (
-    <section className="bg-ivory px-6 py-13">
+    <section className="px-6 py-13">
       <p className="mb-2 text-xs font-semibold text-cream">WELCOME</p>
       <h2 className="mb-8 text-2xl">처음 오시는 분들께</h2>
 

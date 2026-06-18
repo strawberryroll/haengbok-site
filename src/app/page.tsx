@@ -1,4 +1,5 @@
 import Hero from '@/components/home/Hero';
+import Location from '@/components/home/Location';
 import Schedule from '@/components/home/Schedule';
 import Sermon from '@/components/home/Sermon';
 import Values from '@/components/home/Values';
@@ -12,6 +13,7 @@ export default function Home() {
       <Welcome />
       <Schedule />
       <Sermon />
+      <Location />
     </main>
   );
 }
