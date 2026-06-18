@@ -49,42 +49,50 @@ export default function Location() {
           </div>
         </Card>
 
-        <div className="flex gap-3">
+        <div className="flex w-full gap-3">
           <Link
             target="_blank"
             rel="noopener noreferrer"
             href="https://map.kakao.com/link/map/행복한교회,37.4401985,126.6635782"
             className={cn(
-              buttonVariants({ size: 'lg' }),
-              'flex flex-1 items-center justify-center gap-3 bg-warm-white hover:bg-cream-light/90',
-              'rounded-2xl border border-cream/30 shadow-sm',
+              buttonVariants({ size: 'default' }),
+              'flex min-w-0 flex-1 items-center justify-center gap-2 bg-warm-white hover:bg-cream-light/90',
+              'h-12 rounded-2xl border border-cream/30 shadow-sm',
             )}
           >
             <Image
               src="/icons/kakaomap_icon.png"
               alt="kakaomap"
-              width={25}
-              height={25}
+              width={20}
+              height={20}
+              className="shrink-0"
             />
-            <p className="font-semibold">카카오맵으로 보기</p>
+            <span className="truncate text-sm font-semibold">
+              <span className="sm:hidden">카카오맵</span>
+              <span className="hidden sm:inline">카카오맵으로 보기</span>
+            </span>
           </Link>
           <Link
             target="_blank"
             rel="noopener noreferrer"
             href="https://map.naver.com/p/entry/place/16600562"
             className={cn(
-              buttonVariants({ size: 'lg' }),
-              'flex flex-1 items-center justify-center gap-3 bg-warm-white hover:bg-cream-light/90',
-              'rounded-2xl border border-cream/30 shadow-sm',
+              buttonVariants({ size: 'default' }),
+              'flex min-w-0 flex-1 items-center justify-center gap-2 bg-warm-white hover:bg-cream-light/90',
+              'h-12 rounded-2xl border border-cream/30 shadow-sm',
             )}
           >
             <Image
               src="/icons/navermap_icon.png"
               alt="navermap"
-              width={25}
-              height={25}
+              width={20}
+              height={20}
+              className="shrink-0"
             />
-            <p className="font-semibold">네이버지도로 보기</p>
+            <span className="truncate text-sm font-semibold">
+              <span className="sm:hidden">네이버지도</span>
+              <span className="hidden sm:inline">네이버지도로 보기</span>
+            </span>
           </Link>
         </div>
 
