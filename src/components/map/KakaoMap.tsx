@@ -1,7 +1,7 @@
 'use client';
 
 import Script from 'next/script';
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 
 const LAT = 37.4401985;
 const LNG = 126.6635782;
@@ -17,6 +17,12 @@ export default function KakaoMap() {
       marker.setMap(map);
     });
   };
+
+  useEffect(() => {
+    if (window.kakao && window.kakao.maps) {
+      initMap();
+    }
+  }, []);
 
   return (
     <div>
