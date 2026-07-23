@@ -1,6 +1,6 @@
 import { Card, CardDescription, CardTitle } from '@/components/ui/Card';
 import { Bus, MapPin, ParkingSquare } from 'lucide-react';
-import KakaoMap from './KakaoMap';
+import KakaoMap from '../map/KakaoMap';
 import Image from 'next/image';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
@@ -112,16 +112,9 @@ export default function Location() {
                     {item.walk}
                   </span>
                 </div>
-                <div className="flex flex-wrap gap-1.5">
-                  {item.buses.map((bus) => (
-                    <span
-                      key={bus}
-                      className="rounded-full bg-warm-white px-2.5 py-0.5 text-sm font-semibold text-charcoal shadow-sm"
-                    >
-                      {bus}
-                    </span>
-                  ))}
-                </div>
+                <p className="text-sm font-semibold text-charcoal/70">
+                  {item.buses.join(' · ')}
+                </p>
                 <CardDescription className="text-description">
                   {item.note}
                 </CardDescription>
