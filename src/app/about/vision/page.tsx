@@ -1,4 +1,4 @@
-import Values, { valuesData } from '@/components/home/Values';
+import { valuesData } from '@/components/home/Values';
 import {
   Card,
   CardContent,
