@@ -7,7 +7,7 @@ interface ValueItem {
   description: string[];
 }
 
-const valuesData: ValueItem[] = [
+export const valuesData: ValueItem[] = [
   {
     icon: HandHeart,
     title: '예배',
