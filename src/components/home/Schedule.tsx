@@ -35,7 +35,7 @@ const scheduleData: ScheduleGroup[] = [
 
 export default function Schedule() {
   return (
-    <section className="bg-ivory px-6 py-13">
+    <section id="schedule" className="bg-ivory px-6 py-13">
       <p className="mb-2 text-xs font-semibold text-cream">SCHEDULE</p>
       <h2 className="mb-8 text-2xl">예배 시간 안내</h2>
 

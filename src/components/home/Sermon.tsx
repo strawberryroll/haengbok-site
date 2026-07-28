@@ -6,7 +6,10 @@ import Image from 'next/image';
 
 export default function Sermon() {
   return (
-    <section className="flex flex-col items-center justify-center gap-3 bg-charcoal px-6 py-13">
+    <section
+      id="sermon"
+      className="flex flex-col items-center justify-center gap-3 bg-charcoal px-6 py-13"
+    >
       <p className="text-xs font-semibold text-white/50">Sermon</p>
       <h2 className="text-2xl text-white">설교 말씀</h2>
       <p className="mb-6 text-white/65">언제 어디서든 말씀을 들어보세요</p>
