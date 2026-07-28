@@ -7,6 +7,7 @@ import {
 } from '@/components/ui/Card';
 import Divider from '@/components/ui/Divider';
 import PageHeader from '@/components/ui/PageHeader';
+import SectionHeading from '@/components/ui/SectionHeading';
 import { Quote } from 'lucide-react';
 
 export default function Page() {
@@ -22,10 +23,7 @@ export default function Page() {
       <div className="px-6">
         {/* 교회 표어 */}
         <div className="flex flex-col gap-6 pt-15">
-          <div className="flex flex-col gap-2">
-            <p className="text-xs font-semibold text-cream">MOTTO</p>
-            <h3 className="text-3xl font-semibold">교회 표어</h3>
-          </div>
+          <SectionHeading eyebrow="MOTTO" title="교회 표어" />
 
           <Card className="bg-charcoal">
             <CardContent className="text-2xl font-medium text-white">
@@ -55,10 +53,7 @@ export default function Page() {
 
         {/* 교회 목표 */}
         <div className="flex flex-col gap-6 pt-15 pb-20">
-          <div className="flex flex-col gap-2">
-            <p className="text-xs font-semibold text-cream">GOALS</p>
-            <h3 className="text-3xl font-semibold">교회 목표</h3>
-          </div>
+          <SectionHeading eyebrow="GOALS" title="교회 목표" />
           <div className="flex flex-col gap-4">
             {valuesData.map((item) => (
               <Card
