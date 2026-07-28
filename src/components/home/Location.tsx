@@ -28,7 +28,7 @@ const parkingData = [
 
 export default function Location() {
   return (
-    <section className="bg-ivory px-6 py-13">
+    <section id="location" className="bg-ivory px-6 py-13">
       <p className="mb-2 text-xs font-semibold text-cream">LOCATION</p>
       <h2 className="mb-8 text-2xl">오시는 길</h2>
 
