@@ -2,7 +2,7 @@ import { Card } from '@/components/ui/Card';
 import ScheduleRow, { WorshipItem } from '@/components/ui/ScheduleRow';
 import React from 'react';
 
-interface ScheduleGroup {
+export interface ScheduleGroup {
   category: string;
   worships: WorshipItem[];
 }
@@ -26,9 +26,9 @@ const scheduleData: ScheduleGroup[] = [
   {
     category: '주중 예배',
     worships: [
-      { title: '수요 기도회', place: '수요일 · 3층', time: '오후 7:30' },
+      { title: '수요 기도회', place: '수요일 · 2층', time: '오후 7:30' },
       { title: '금요 기도회', place: '금요일 · 2층', time: '오후 9:00' },
-      { title: '새벽 기도회', place: '월~금 · 2층', time: '새벽 5:00' },
+      { title: '새벽 기도회', place: '일~금 · 2층', time: '새벽 5:00' },
     ],
   },
 ];
