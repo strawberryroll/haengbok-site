@@ -15,7 +15,7 @@ export default function EventRow({
 
   return (
     <div className="flex items-center gap-5 px-5 py-2">
-      <div className="flex w-16 shrink-0 flex-col items-center justify-center gap-1 py-2">
+      <div className="flex w-16 shrink-0 flex-col items-center justify-center gap-1 py-1">
         <span className="text-sm leading-none font-semibold whitespace-nowrap text-charcoal/95">
           {dayLabel}
         </span>

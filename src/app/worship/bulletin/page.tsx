@@ -1,5 +1,6 @@
 import { buttonVariants } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
+import Divider from '@/components/ui/Divider';
 import EventRow, { MonthlyEventItem } from '@/components/ui/EventRow';
 import PageHeader from '@/components/ui/PageHeader';
 import SectionHeading from '@/components/ui/SectionHeading';
@@ -7,6 +8,11 @@ import { cn } from '@/lib/utils';
 import { FileText } from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
+
+interface ServantGroup {
+  role: string;
+  name: string[];
+}
 
 const BULLETIN_URL =
   'https://drive.google.com/drive/folders/1nOFK3M3l3NOzHvzyENtvo-7riFo_u0v1?usp=sharing';
@@ -23,6 +29,13 @@ const monthlyEventsData: MonthlyEventItem[] = [
   },
   { startDay: 24, endDay: 26, weekday: '월-수', titles: ['말씀사랑 설교특강'] },
   { startDay: 30, titles: ['영화 상영'] },
+];
+
+const servantsData: ServantGroup[] = [
+  { role: '담임목사', name: ['서현정'] },
+  { role: '원로목사', name: ['서인원'] },
+  { role: '장로', name: ['임화일'] },
+  { role: '반주', name: ['최혜영', '김지은', '서은정', '양혜빈'] },
 ];
 
 export default function Page() {
@@ -85,6 +98,30 @@ export default function Page() {
               </React.Fragment>
             ))}
           </Card>
+        </div>
+
+        <div>
+          <div className="flex flex-wrap gap-x-6 gap-y-2 pt-20 pb-6">
+            {servantsData.map((servant) => (
+              <div className="flex items-center gap-1.5" key={servant.role}>
+                <span className="shrink-0 text-xs font-medium text-gold">
+                  {servant.role}
+                </span>
+                <span className="shrink-0 text-sm text-description">
+                  {servant.name.join('·')}
+                </span>
+              </div>
+            ))}
+          </div>
+          <Divider className="w-full border-t-[0.5px] text-description/30" />
+          <div className="flex flex-col gap-1.5 pt-6">
+            <span className="text-sm text-description/70">
+              온라인현금 계좌: 농협 351-0991-7554-43
+            </span>
+            <span className="text-xs text-description/70">
+              (예수교대한성결교회 행복한교회)
+            </span>
+          </div>
         </div>
       </div>
     </>
