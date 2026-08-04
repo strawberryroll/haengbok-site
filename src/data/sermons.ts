@@ -48,8 +48,8 @@ export const sermons: Sermon[] = [
   {
     videoId: 'nxEHTmfMZxo',
     date: '2025-06-08',
-    title: '행복한교회 주일 낮 예배 “성령의 능력” 사도행전 4:5-12',
-    scripture: '',
+    title: '성령의 능력',
+    scripture: '사도행전 4:5-12',
     publishedAt: '2025-06-14T17:21:11Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/nxEHTmfMZxo/hqdefault.jpg',
     preacher: '서인원',
@@ -75,8 +75,8 @@ export const sermons: Sermon[] = [
   {
     videoId: '_TsnMqrE4nw',
     date: '2025-05-18',
-    title: '행복한교회 주일 낮 예배 ”네 입을 크게 열라“ 이사야 81:8-13',
-    scripture: '',
+    title: '네 입을 크게 열라',
+    scripture: '이사야 81:8-13',
     publishedAt: '2025-05-19T13:30:02Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/_TsnMqrE4nw/hqdefault.jpg',
     preacher: '서인원',
@@ -129,8 +129,8 @@ export const sermons: Sermon[] = [
   {
     videoId: 'aT0m3QeSjXk',
     date: '2025-03-30',
-    title: '행복한교회 주일 낮 예배 “감격의 인생” 요한복음 32:38',
-    scripture: '',
+    title: '감격의 인생',
+    scripture: '요한복음 32:38',
     publishedAt: '2025-04-01T10:35:51Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/aT0m3QeSjXk/hqdefault.jpg',
     preacher: '서인원',
@@ -165,9 +165,8 @@ export const sermons: Sermon[] = [
   {
     videoId: '0AOmnEjKBz8',
     date: '2025-03-09',
-    title:
-      '행복한교회 주일 낮 예배 “하나님 마음에 맞는 사람“ 사도행전 13:20-23',
-    scripture: '',
+    title: '하나님 마음에 맞는 사람',
+    scripture: '사도행전 13:20-23',
     publishedAt: '2025-03-09T14:16:37Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/0AOmnEjKBz8/hqdefault.jpg',
     preacher: '서인원',
@@ -220,8 +219,8 @@ export const sermons: Sermon[] = [
   {
     videoId: 'kz08xJxWyV8',
     date: '2025-01-19',
-    title: '행복한교회 주일 낮 예배 “성령의 인도를 받는 사람” 로마서 8:12-17',
-    scripture: '',
+    title: '성령의 인도를 받는 사람',
+    scripture: '로마서 8:12-17',
     publishedAt: '2025-01-25T11:11:10Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/kz08xJxWyV8/hqdefault.jpg',
     preacher: '서인원',
@@ -247,8 +246,8 @@ export const sermons: Sermon[] = [
   {
     videoId: 'LsKbjp70Hms',
     date: '2024-12-25',
-    title: '행복한교회 성탄연합예배 ”하나님께 영광 땅에 평화“ 누가복음 2:8-14',
-    scripture: '',
+    title: '하나님께 영광 땅에 평화',
+    scripture: '누가복음 2:8-14',
     publishedAt: '2024-12-25T14:44:01Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/LsKbjp70Hms/hqdefault.jpg',
     preacher: '서인원',
@@ -256,8 +255,8 @@ export const sermons: Sermon[] = [
   {
     videoId: 'LKs0umrsfYc',
     date: '2024-12-22',
-    title: '행복한교회 주일 낮 예배 “동방박사들의 경배” 마태복음 2:1-6',
-    scripture: '',
+    title: '동방박사들의 경배',
+    scripture: '마태복음 2:1-6',
     publishedAt: '2024-12-22T12:57:47Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/LKs0umrsfYc/hqdefault.jpg',
     preacher: '서인원',
@@ -274,8 +273,8 @@ export const sermons: Sermon[] = [
   {
     videoId: 'QTWWvcpDuIU',
     date: '2024-12-14',
-    title: '행복한교회 주일 낮 예배 “말씀을 듣는 자세“ 사도행전 10:24-33',
-    scripture: '',
+    title: '말씀을 듣는 자세',
+    scripture: '사도행전 10:24-33',
     publishedAt: '2024-12-14T23:51:17Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/QTWWvcpDuIU/hqdefault.jpg',
     preacher: '서인원',
@@ -283,8 +282,8 @@ export const sermons: Sermon[] = [
   {
     videoId: '7dX_dBZI6R0',
     date: '2024-12-01',
-    title: '행복한교회 주일 낮 예배 “교회는 무엇과 같은가?” 에베소서 1:22-23',
-    scripture: '',
+    title: '교회는 무엇과 같은가?',
+    scripture: '에베소서 1:22-23',
     publishedAt: '2024-12-01T15:16:37Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/7dX_dBZI6R0/hqdefault.jpg',
     preacher: '서인원',
@@ -310,8 +309,8 @@ export const sermons: Sermon[] = [
   {
     videoId: '98vbuu9eY7M',
     date: '2024-11-10',
-    title: '행복한교회 주일 낮 예배 “택함받은 자의 감사” 데살로니가전서 1:2-4',
-    scripture: '',
+    title: '택함받은 자의 감사',
+    scripture: '데살로니가전서 1:2-4',
     publishedAt: '2024-11-13T08:15:10Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/98vbuu9eY7M/hqdefault.jpg',
     preacher: '서인원',
@@ -319,8 +318,8 @@ export const sermons: Sermon[] = [
   {
     videoId: 'HXAFjmMzqB0',
     date: '2024-11-03',
-    title: '행복한교회 주일 낮 예배 “치료하는 광선” 말라기 4:2-3',
-    scripture: '',
+    title: '치료하는 광선',
+    scripture: '말라기 4:2-3',
     publishedAt: '2024-11-04T14:18:32Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/HXAFjmMzqB0/hqdefault.jpg',
     preacher: '서인원',
@@ -553,8 +552,8 @@ export const sermons: Sermon[] = [
   {
     videoId: 'aSagqsy4zgw',
     date: '2024-04-14',
-    title: '행복한교회 주일 낮 예배 “저주를 정복하라” 갈라디아서 3:13-14',
-    scripture: '',
+    title: '저주를 정복하라',
+    scripture: '갈라디아서 3:13-14',
     publishedAt: '2024-04-18T12:19:04Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/aSagqsy4zgw/hqdefault.jpg',
     preacher: '서인원',
@@ -562,8 +561,8 @@ export const sermons: Sermon[] = [
   {
     videoId: 'kIG-thUDLSM',
     date: '2024-03-31',
-    title: '행복한교회 주일 낮 예배 “부활과 생명” 요한복음 10:9-10',
-    scripture: '',
+    title: '부활과 생명',
+    scripture: '요한복음 10:9-10',
     publishedAt: '2024-04-13T12:51:22Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/kIG-thUDLSM/hqdefault.jpg',
     preacher: '서인원',
@@ -616,8 +615,8 @@ export const sermons: Sermon[] = [
   {
     videoId: '7aHJMBSmr3I',
     date: '2024-01-07',
-    title: '행복한교회 주일 낮 예배 “예배의 축복” 창세기 28:13-19',
-    scripture: '',
+    title: '예배의 축복',
+    scripture: '창세기 28:13-19',
     publishedAt: '2024-01-14T00:31:51Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/7aHJMBSmr3I/hqdefault.jpg',
     preacher: '서인원',
@@ -634,8 +633,8 @@ export const sermons: Sermon[] = [
   {
     videoId: '-MgLVEJFafI',
     date: '2023-12-25',
-    title: '행복한교회 성탄축하예배 “성탄의 좋은 소식” 누가복음 2:10-14',
-    scripture: '',
+    title: '성탄의 좋은 소식',
+    scripture: '누가복음 2:10-14',
     publishedAt: '2023-12-30T15:27:32Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/-MgLVEJFafI/hqdefault.jpg',
     preacher: '서인원',
@@ -688,8 +687,8 @@ export const sermons: Sermon[] = [
   {
     videoId: 'NfEPs0VOe5Q',
     date: '2023-11-19',
-    title: '행복한교회 주일 낮 예배 “다윗의 감사 찬송” 시편 103:1-5',
-    scripture: '',
+    title: '다윗의 감사 찬송',
+    scripture: '시편 103:1-5',
     publishedAt: '2023-11-21T12:53:12Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/NfEPs0VOe5Q/hqdefault.jpg',
     preacher: '서인원',
@@ -832,8 +831,8 @@ export const sermons: Sermon[] = [
   {
     videoId: 'HKU-LP0rqLU',
     date: '2023-07-09',
-    title: '행복한교회 주일 낮 예배 “하나님과 화목하라” 고린도후서 5:17-21',
-    scripture: '',
+    title: '하나님과 화목하라',
+    scripture: '고린도후서 5:17-21',
     publishedAt: '2023-07-10T03:37:20Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/HKU-LP0rqLU/hqdefault.jpg',
     preacher: '서인원',
@@ -850,8 +849,8 @@ export const sermons: Sermon[] = [
   {
     videoId: '-xceBP5EuFg',
     date: '2023-06-25',
-    title: '행복한교회 주일 낮 예배 “지옥” 요한계시록 20:11-15',
-    scripture: '',
+    title: '지옥',
+    scripture: '요한계시록 20:11-15',
     publishedAt: '2023-06-26T05:24:31Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/-xceBP5EuFg/hqdefault.jpg',
     preacher: '서인원',
@@ -931,7 +930,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'fJpNdiHkP68',
     date: '2023-04-23',
-    title: '행복한교회 주일 낮 예배 “한 가지 부족한 것”',
+    title: '한 가지 부족한 것',
     scripture: '',
     publishedAt: '2023-04-25T10:43:02Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/fJpNdiHkP68/hqdefault.jpg',
@@ -985,7 +984,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'OkT7Gl6cJbc',
     date: '2023-03-12',
-    title: '행복한교회 주일 낮 예배 “예수의 이름”',
+    title: '예수의 이름',
     scripture: '',
     publishedAt: '2023-03-14T02:41:01Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/OkT7Gl6cJbc/hqdefault.jpg',
@@ -1003,8 +1002,8 @@ export const sermons: Sermon[] = [
   {
     videoId: 'Cfx_WNaFR6U',
     date: '2023-03-03',
-    title: '행복한교회 주일 낮 예배 “운명을 바꾼 사람” 역대상 4:9-10',
-    scripture: '',
+    title: '운명을 바꾼 사람',
+    scripture: '역대상 4:9-10',
     publishedAt: '2024-03-10T13:55:21Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/Cfx_WNaFR6U/hqdefault.jpg',
     preacher: '서인원',
@@ -1102,7 +1101,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'MvhCO2-4p7M',
     date: '2022-12-25',
-    title: '행복한교회 주일 낮 예배 “큰 기쁨의 좋은 소식”',
+    title: '큰 기쁨의 좋은 소식',
     scripture: '',
     publishedAt: '2022-12-27T02:06:09Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/MvhCO2-4p7M/hqdefault.jpg',
@@ -1111,7 +1110,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'Q5LoKBQtLZ8',
     date: '2022-12-18',
-    title: '행복한교회 주일 낮 예배 “기쁘다 왕이 오셨다”',
+    title: '기쁘다 왕이 오셨다',
     scripture: '',
     publishedAt: '2022-12-18T15:21:01Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/Q5LoKBQtLZ8/hqdefault.jpg',
@@ -1156,7 +1155,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'Xu9wTL17XDI',
     date: '2022-11-13',
-    title: '행복한교회 주일 낮 예배 “참 신앙인의 감사”',
+    title: '참 신앙인의 감사',
     scripture: '',
     publishedAt: '2022-11-15T16:50:22Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/Xu9wTL17XDI/hqdefault.jpg',
@@ -1183,7 +1182,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'F8wpLXgbekY',
     date: '2022-10-23',
-    title: '행복한교회 주일 낮 예배 “전도의 축복”',
+    title: '전도의 축복',
     scripture: '',
     publishedAt: '2022-10-25T15:56:13Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/F8wpLXgbekY/hqdefault.jpg',
@@ -1237,7 +1236,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'JrUywZGuFVM',
     date: '2022-09-11',
-    title: '행복한교회 주일 낮 예배 “기다리시는 하나님”',
+    title: '기다리시는 하나님',
     scripture: '',
     publishedAt: '2022-09-13T10:25:34Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/JrUywZGuFVM/hqdefault.jpg',
@@ -1246,7 +1245,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'xlLQAktG9zs',
     date: '2022-09-04',
-    title: '행복한교회 주일 낮 예배 “하나님이 쓰시는 사람”',
+    title: '하나님이 쓰시는 사람',
     scripture: '',
     publishedAt: '2022-09-06T14:28:27Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/xlLQAktG9zs/hqdefault.jpg',
@@ -1255,7 +1254,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'l5Q3nCzuB9U',
     date: '2022-08-28',
-    title: '행복한교회 주일 낮 예배 “참새와 머리털”',
+    title: '참새와 머리털',
     scripture: '',
     publishedAt: '2022-08-29T03:14:29Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/l5Q3nCzuB9U/hqdefault.jpg',
@@ -1264,7 +1263,7 @@ export const sermons: Sermon[] = [
   {
     videoId: '3xiyxtzKWlI',
     date: '2022-08-21',
-    title: '행복한교회 주일 낮 예배 “두 문, 두 길”',
+    title: '두 문, 두 길',
     scripture: '',
     publishedAt: '2022-08-25T14:13:36Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/3xiyxtzKWlI/hqdefault.jpg',
@@ -1273,7 +1272,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'SAx9IrVl_G8',
     date: '2022-08-14',
-    title: '행복한교회 주일 낮 예배 “하나님 만날 준비하라”',
+    title: '하나님 만날 준비하라',
     scripture: '',
     publishedAt: '2022-08-16T05:30:47Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/SAx9IrVl_G8/hqdefault.jpg',
@@ -1282,7 +1281,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'kgqUX6zapug',
     date: '2022-08-07',
-    title: '행복한교회 주일 낮 예배 “밭에 감추인 보화”',
+    title: '밭에 감추인 보화',
     scripture: '',
     publishedAt: '2022-08-08T07:02:55Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/kgqUX6zapug/hqdefault.jpg',
@@ -1291,7 +1290,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'WUaqS9FMqSQ',
     date: '2022-07-31',
-    title: '행복한교회 주일 낮 예배 “한 죄인의 회개”',
+    title: '한 죄인의 회개',
     scripture: '',
     publishedAt: '2022-07-31T13:21:42Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/WUaqS9FMqSQ/hqdefault.jpg',
@@ -1300,7 +1299,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'PzAjC2s0v58',
     date: '2022-07-24',
-    title: '행복한교회 주일 낮 예배 “부르짖어 기도하라”',
+    title: '부르짖어 기도하라',
     scripture: '',
     publishedAt: '2022-07-27T05:12:32Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/PzAjC2s0v58/hqdefault.jpg',
@@ -1309,7 +1308,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'GNB6d8MGcoA',
     date: '2022-07-17',
-    title: '행복한교회 주일 낮 예배 “이 시기를 알라”',
+    title: '이 시기를 알라',
     scripture: '',
     publishedAt: '2022-07-19T05:06:00Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/GNB6d8MGcoA/hqdefault.jpg',
@@ -1318,7 +1317,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'q_dqjLhwANQ',
     date: '2022-07-10',
-    title: '“여호와를 진실히 섬기라”',
+    title: '여호와를 진실히 섬기라',
     scripture: '',
     publishedAt: '2022-07-13T07:31:32Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/q_dqjLhwANQ/hqdefault.jpg',
@@ -1327,7 +1326,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'AxHMFXCCj6A',
     date: '2022-07-03',
-    title: '행복한교회 주일 낮 예배 “맥추절을 지키라”',
+    title: '맥추절을 지키라',
     scripture: '',
     publishedAt: '2022-07-05T03:20:41Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/AxHMFXCCj6A/hqdefault.jpg',
@@ -1345,7 +1344,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'fZP5YWy-nhM',
     date: '2022-06-19',
-    title: '행복한교회 주일 낮 예배 “성령을 따라 행하라”',
+    title: '성령을 따라 행하라',
     scripture: '',
     publishedAt: '2022-06-21T04:48:17Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/fZP5YWy-nhM/hqdefault.jpg',
@@ -1354,7 +1353,7 @@ export const sermons: Sermon[] = [
   {
     videoId: '-uQ83oeMXPw',
     date: '2022-06-12',
-    title: '행복한교회 주일 낮 예배 “성령의 불”',
+    title: '성령의 불',
     scripture: '',
     publishedAt: '2022-06-12T13:55:48Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/-uQ83oeMXPw/hqdefault.jpg',
@@ -1363,7 +1362,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'WqnxdEaOYzU',
     date: '2022-06-05',
-    title: '행복한교회 주일 낮 예배 “성령을 받으라”',
+    title: '성령을 받으라',
     scripture: '',
     publishedAt: '2022-06-10T10:43:15Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/WqnxdEaOYzU/hqdefault.jpg',
@@ -1372,7 +1371,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'IMZ4THp-P4Y',
     date: '2022-05-29',
-    title: '행복한교회 주일 낮 예배 “너의 아버지께서 갚으시리라”',
+    title: '너의 아버지께서 갚으시리라',
     scripture: '',
     publishedAt: '2022-05-29T15:15:51Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/IMZ4THp-P4Y/hqdefault.jpg',
@@ -1381,7 +1380,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'WVAH55HQVv4',
     date: '2022-05-22',
-    title: '행복한교회 주일 낮 예배 “중매자의 열심”',
+    title: '중매자의 열심',
     scripture: '',
     publishedAt: '2022-05-26T15:11:24Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/WVAH55HQVv4/hqdefault.jpg',
@@ -1390,7 +1389,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'mHGpXz4QqWY',
     date: '2022-05-15',
-    title: '행복한교회 주일 낮 예배 “복된 가정”',
+    title: '복된 가정',
     scripture: '',
     publishedAt: '2022-05-15T13:10:32Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/mHGpXz4QqWY/hqdefault.jpg',
@@ -1399,7 +1398,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'CRBf5Mzo9Yo',
     date: '2022-05-08',
-    title: '행복한교회 주일 낮 예배 “네 부모를 공경하라”',
+    title: '네 부모를 공경하라',
     scripture: '',
     publishedAt: '2022-05-10T02:17:36Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/CRBf5Mzo9Yo/hqdefault.jpg',
@@ -1408,7 +1407,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'Pv9Yd5DX39Y',
     date: '2022-05-01',
-    title: '행복한교회 주일 낮 예배 “안수하시고 축복”',
+    title: '안수하시고 축복',
     scripture: '',
     publishedAt: '2022-05-01T15:15:38Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/Pv9Yd5DX39Y/hqdefault.jpg',
@@ -1417,7 +1416,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'nIgjuesg3Vk',
     date: '2022-04-24',
-    title: '행복한교회 주일 낮 예배 “생기를 불어주소서”',
+    title: '생기를 불어주소서',
     scripture: '',
     publishedAt: '2022-04-24T15:24:54Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/nIgjuesg3Vk/hqdefault.jpg',
@@ -1426,7 +1425,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'O28C8KqC5zo',
     date: '2022-04-17',
-    title: '행복한교회 주일 낮 예배 “평강이 있을지어다”',
+    title: '평강이 있을지어다',
     scripture: '',
     publishedAt: '2022-04-17T15:15:18Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/O28C8KqC5zo/hqdefault.jpg',
@@ -1444,7 +1443,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'RQqPfbVCdG4',
     date: '2022-04-03',
-    title: '행복한교회 주일 낮 예배 “그의 옷을 붙잡을 때”',
+    title: '그의 옷을 붙잡을 때',
     scripture: '',
     publishedAt: '2022-04-03T15:13:32Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/RQqPfbVCdG4/hqdefault.jpg',
@@ -1471,7 +1470,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'W0pbRAzDSlc',
     date: '2022-03-13',
-    title: '행복한교회 주일 낮 예배 “주의 음성을 들으라”',
+    title: '주의 음성을 들으라',
     scripture: '',
     publishedAt: '2022-03-13T14:39:52Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/W0pbRAzDSlc/hqdefault.jpg',
@@ -1480,7 +1479,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'fccxem4sQ6g',
     date: '2022-03-06',
-    title: '행복한교회 주일 낮 예배 “유다의 축복”',
+    title: '유다의 축복',
     scripture: '',
     publishedAt: '2022-03-06T15:31:26Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/fccxem4sQ6g/hqdefault.jpg',
@@ -1498,7 +1497,7 @@ export const sermons: Sermon[] = [
   {
     videoId: '37UqAl7tgN0',
     date: '2022-02-20',
-    title: '행복한교회 주일 낮 예배 “성령으로 난 사람”',
+    title: '성령으로 난 사람',
     scripture: '',
     publishedAt: '2022-02-20T15:19:38Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/37UqAl7tgN0/hqdefault.jpg',
@@ -1507,7 +1506,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'W7dv5iNjRs8',
     date: '2022-02-13',
-    title: '행복한교회 주일 낮 예배 “기도하는 다윗”',
+    title: '기도하는 다윗',
     scripture: '',
     publishedAt: '2022-02-13T15:25:13Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/W7dv5iNjRs8/hqdefault.jpg',
@@ -1516,7 +1515,7 @@ export const sermons: Sermon[] = [
   {
     videoId: '6lmv03eJrA4',
     date: '2022-02-06',
-    title: '행복한교회 주일 낮 예배 “권능을 주시니라”',
+    title: '권능을 주시니라',
     scripture: '',
     publishedAt: '2022-02-06T15:26:45Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/6lmv03eJrA4/hqdefault.jpg',
@@ -1525,7 +1524,7 @@ export const sermons: Sermon[] = [
   {
     videoId: '0345x1kAbq4',
     date: '2022-01-30',
-    title: '행복한교회 주일 낮 예배 “꿈을 가진 사람”',
+    title: '꿈을 가진 사람',
     scripture: '',
     publishedAt: '2022-01-30T15:44:42Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/0345x1kAbq4/hqdefault.jpg',
@@ -1534,7 +1533,7 @@ export const sermons: Sermon[] = [
   {
     videoId: '9b-qllp9STA',
     date: '2022-01-23',
-    title: '행복한교회 주일 낮 예배 “십일조의 축복”',
+    title: '십일조의 축복',
     scripture: '',
     publishedAt: '2022-01-23T15:26:01Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/9b-qllp9STA/hqdefault.jpg',
@@ -1543,7 +1542,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'deSgntTYRRs',
     date: '2022-01-16',
-    title: '행복한교회 주일 낮 예배 “살리는 생각”',
+    title: '살리는 생각',
     scripture: '',
     publishedAt: '2022-01-16T15:06:31Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/deSgntTYRRs/hqdefault.jpg',
@@ -1552,7 +1551,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'pC8NJEixZjo',
     date: '2022-01-09',
-    title: '행복한교회 주일 낮 예배 “마침내 백배의 축복”',
+    title: '마침내 백배의 축복',
     scripture: '',
     publishedAt: '2022-01-09T23:25:47Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/pC8NJEixZjo/hqdefault.jpg',
@@ -1561,7 +1560,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'WGf_S_1K-Fg',
     date: '2022-01-02',
-    title: '행복한교회 주일 낮 예배 “열리는 축복”',
+    title: '열리는 축복',
     scripture: '',
     publishedAt: '2022-01-04T05:11:03Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/WGf_S_1K-Fg/hqdefault.jpg',
@@ -1570,7 +1569,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'qxgXKyWAphI',
     date: '2021-12-26',
-    title: '행복한교회 주일 낮 예배 “절망인가 희망인가?”',
+    title: '절망인가 희망인가?',
     scripture: '',
     publishedAt: '2021-12-28T14:17:29Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/qxgXKyWAphI/hqdefault.jpg',
@@ -1579,7 +1578,7 @@ export const sermons: Sermon[] = [
   {
     videoId: '4oGk8e1h5Rk',
     date: '2021-12-19',
-    title: '행복한교회 주일 낮 예배 “은혜를 받은 자”',
+    title: '은혜를 받은 자',
     scripture: '',
     publishedAt: '2021-12-20T06:00:03Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/4oGk8e1h5Rk/hqdefault.jpg',
@@ -1588,7 +1587,7 @@ export const sermons: Sermon[] = [
   {
     videoId: '3oCAHtz3e2A',
     date: '2021-12-12',
-    title: '행복한교회 주일 낮 예배 “말씀에 의지하여”',
+    title: '말씀에 의지하여',
     scripture: '',
     publishedAt: '2021-12-13T13:05:31Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/3oCAHtz3e2A/hqdefault.jpg',
@@ -1597,7 +1596,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'YD3EjA0RqQY',
     date: '2021-12-05',
-    title: '행복한교회 주일 낮 예배 “갚으시는 하나님”',
+    title: '갚으시는 하나님',
     scripture: '',
     publishedAt: '2021-12-05T12:21:57Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/YD3EjA0RqQY/hqdefault.jpg',
@@ -1606,7 +1605,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'XnDz6WR6II8',
     date: '2021-11-28',
-    title: '행복한교회 주일 낮 예배 “깨어 기도하라”',
+    title: '깨어 기도하라',
     scripture: '',
     publishedAt: '2021-11-30T01:16:59Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/XnDz6WR6II8/hqdefault.jpg',
@@ -1615,7 +1614,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'PN_6gL-Eglw',
     date: '2021-11-21',
-    title: '행복한교회 주일 낮 예배 “내게 충분한 은혜”',
+    title: '내게 충분한 은혜',
     scripture: '',
     publishedAt: '2021-11-23T16:30:05Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/PN_6gL-Eglw/hqdefault.jpg',
@@ -1624,7 +1623,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'l0ebFLEr3Uk',
     date: '2021-11-14',
-    title: '행복한교회 주일 낮 예배 “감사의 보답”',
+    title: '감사의 보답',
     scripture: '',
     publishedAt: '2021-11-14T13:40:09Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/l0ebFLEr3Uk/hqdefault.jpg',
@@ -1651,7 +1650,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'NfLnxs9ActY',
     date: '2021-10-24',
-    title: '행복한교회 주일 낮 예배 “은밀한 중에 계신 하나님”',
+    title: '은밀한 중에 계신 하나님',
     scripture: '',
     publishedAt: '2021-10-24T16:10:56Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/NfLnxs9ActY/hqdefault.jpg',
@@ -1660,7 +1659,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'u7ZQRv5maZQ',
     date: '2021-10-17',
-    title: '행복한교회 주일 낮 예배 “씨”',
+    title: '씨',
     scripture: '',
     publishedAt: '2021-10-17T15:32:34Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/u7ZQRv5maZQ/hqdefault.jpg',
@@ -1669,7 +1668,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'VpBbbLGDJ8M',
     date: '2021-10-10',
-    title: '행복한교회 주일 낮 예배”성령의 불을 주소서”',
+    title: '성령의 불을 주소서',
     scripture: '',
     publishedAt: '2021-10-10T15:22:43Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/VpBbbLGDJ8M/hqdefault.jpg',
@@ -1678,7 +1677,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'pM86aHAgH94',
     date: '2021-10-03',
-    title: '행복한교회 주일 낮 예배 “구하라. 주신다”',
+    title: '구하라. 주신다',
     scripture: '',
     publishedAt: '2021-10-03T16:18:43Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/pM86aHAgH94/hqdefault.jpg',
@@ -1687,7 +1686,7 @@ export const sermons: Sermon[] = [
   {
     videoId: '3wR-N7gd2Sc',
     date: '2021-09-26',
-    title: '행복한교회 주일 낮 예배 “종말론적인 삶의 자세”',
+    title: '종말론적인 삶의 자세',
     scripture: '',
     publishedAt: '2021-09-26T15:13:21Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/3wR-N7gd2Sc/hqdefault.jpg',
@@ -1696,7 +1695,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'ztkMfjRPk-I',
     date: '2021-09-19',
-    title: '행복한교회 주일 낮 예배 “하나님의 신호등”',
+    title: '하나님의 신호등',
     scripture: '',
     publishedAt: '2021-09-19T15:22:31Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/ztkMfjRPk-I/hqdefault.jpg',
@@ -1705,7 +1704,7 @@ export const sermons: Sermon[] = [
   {
     videoId: '_YHifwUfn54',
     date: '2021-09-12',
-    title: '행복한교회 주일 낮 예배 “오벧에돔의 축복”',
+    title: '오벧에돔의 축복',
     scripture: '',
     publishedAt: '2021-09-12T15:23:01Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/_YHifwUfn54/hqdefault.jpg',
@@ -1714,7 +1713,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'uKNieXvQ_lU',
     date: '2021-09-05',
-    title: '행복한교회 주일 낮 예배 “나그네 인생”',
+    title: '나그네 인생',
     scripture: '',
     publishedAt: '2021-09-05T15:21:45Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/uKNieXvQ_lU/hqdefault.jpg',
@@ -1723,7 +1722,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'QuWIGL7v8S4',
     date: '2021-08-29',
-    title: '행복한교회 주일낮예배 “살아있는 믿음”',
+    title: '살아있는 믿음',
     scripture: '',
     publishedAt: '2021-08-29T15:13:34Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/QuWIGL7v8S4/hqdefault.jpg',
@@ -1732,7 +1731,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'l56rtbd1VqU',
     date: '2021-08-22',
-    title: '행복한교회 주일낮예배 “아멘의 신앙”',
+    title: '아멘의 신앙',
     scripture: '',
     publishedAt: '2021-08-22T16:15:26Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/l56rtbd1VqU/hqdefault.jpg',
@@ -1741,7 +1740,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'N350p78VJLY',
     date: '2021-08-15',
-    title: '행복한교회 주일낮예배 “복의 근원이 된 사람”',
+    title: '복의 근원이 된 사람',
     scripture: '',
     publishedAt: '2021-08-15T15:14:58Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/N350p78VJLY/hqdefault.jpg',
@@ -1750,7 +1749,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'lGAT2qKsgMk',
     date: '2021-08-08',
-    title: '행복한교회 주일 낮 예배 “예수에 미친 사람”',
+    title: '예수에 미친 사람',
     scripture: '',
     publishedAt: '2021-08-08T15:06:58Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/lGAT2qKsgMk/hqdefault.jpg',
@@ -1759,7 +1758,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'AI5uIQAju0U',
     date: '2021-08-01',
-    title: '행복한교회 주일 낮 예배 “치료하시는 하나님”',
+    title: '치료하시는 하나님',
     scripture: '',
     publishedAt: '2021-08-01T15:21:19Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/AI5uIQAju0U/hqdefault.jpg',
@@ -1768,7 +1767,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'bkyz474RUFg',
     date: '2021-07-25',
-    title: '행복한교회 주일 낮 예배 “은총의 재발견”',
+    title: '은총의 재발견',
     scripture: '',
     publishedAt: '2021-07-25T15:32:40Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/bkyz474RUFg/hqdefault.jpg',
@@ -1777,7 +1776,7 @@ export const sermons: Sermon[] = [
   {
     videoId: '8FEbpYw6nmE',
     date: '2021-07-18',
-    title: '행복한교회 주일 낮 예배 “구하는 자가 받는다”',
+    title: '구하는 자가 받는다',
     scripture: '',
     publishedAt: '2021-07-18T15:15:02Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/8FEbpYw6nmE/hqdefault.jpg',
@@ -1795,7 +1794,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'ZJ_dKHEI9SM',
     date: '2021-07-04',
-    title: '행복한교회 주일 낮 예배 “절기를 지키라”',
+    title: '절기를 지키라',
     scripture: '',
     publishedAt: '2021-07-04T15:33:18Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/ZJ_dKHEI9SM/hqdefault.jpg',
@@ -1813,7 +1812,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'Ooz9wZIl-m4',
     date: '2021-06-20',
-    title: '행복한교회 주일 낮 예배 “부끄러움이 없는 사람”',
+    title: '부끄러움이 없는 사람',
     scripture: '',
     publishedAt: '2021-06-20T15:25:44Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/Ooz9wZIl-m4/hqdefault.jpg',
@@ -1822,7 +1821,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'ql8GMnw2zyI',
     date: '2021-06-13',
-    title: '행복한교회 주일 낮 예배 “은총을 아는 사람”',
+    title: '은총을 아는 사람',
     scripture: '',
     publishedAt: '2021-06-13T15:10:04Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/ql8GMnw2zyI/hqdefault.jpg',
@@ -1831,7 +1830,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'kXMaxPr7Gfg',
     date: '2021-06-06',
-    title: '행복한교회 주일 낮 예배 “구하라, 받으리라”',
+    title: '구하라, 받으리라',
     scripture: '',
     publishedAt: '2021-06-06T15:27:35Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/kXMaxPr7Gfg/hqdefault.jpg',
@@ -1840,7 +1839,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'XqcCWERfRCo',
     date: '2021-05-30',
-    title: '행복한교회 주일 낮 예배 “행복한 사람”',
+    title: '행복한 사람',
     scripture: '',
     publishedAt: '2021-05-30T15:28:24Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/XqcCWERfRCo/hqdefault.jpg',
@@ -1849,7 +1848,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'ctFB8Q7bv28',
     date: '2021-05-23',
-    title: '행복한교회 주일 낮 예배 “오순절 성령강림”',
+    title: '오순절 성령강림',
     scripture: '',
     publishedAt: '2021-05-23T15:34:47Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/ctFB8Q7bv28/hqdefault.jpg',
@@ -1858,7 +1857,7 @@ export const sermons: Sermon[] = [
   {
     videoId: '9Y1uCI3gd-4',
     date: '2021-05-16',
-    title: '행복한교회 주일 낮 예배 “행복한 부부”',
+    title: '행복한 부부',
     scripture: '',
     publishedAt: '2021-05-16T15:07:00Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/9Y1uCI3gd-4/hqdefault.jpg',
@@ -1867,7 +1866,7 @@ export const sermons: Sermon[] = [
   {
     videoId: '1uK4i3vQbRA',
     date: '2021-05-09',
-    title: '행복한교회 주일 낮 예배 실시간 "약속 있는 첫 계명"',
+    title: '약속 있는 첫 계명',
     scripture: '',
     publishedAt: '2021-05-09T15:21:24Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/1uK4i3vQbRA/hqdefault.jpg',
@@ -1876,7 +1875,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'obIerzYmWqc',
     date: '2021-05-02',
-    title: '행복한교회 주일 낮 예배 “예수님과 어린이”',
+    title: '예수님과 어린이',
     scripture: '',
     publishedAt: '2021-05-02T15:41:43Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/obIerzYmWqc/hqdefault.jpg',
@@ -1885,7 +1884,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'YwFw_5oV_rc',
     date: '2021-04-25',
-    title: '행복한교회 주일 낮 예배 “믿음의 알곡”',
+    title: '믿음의 알곡',
     scripture: '',
     publishedAt: '2021-04-25T15:14:51Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/YwFw_5oV_rc/hqdefault.jpg',
@@ -1894,7 +1893,7 @@ export const sermons: Sermon[] = [
   {
     videoId: '7RDCYS6f8dA',
     date: '2021-04-18',
-    title: '행복한교회 주일 낮 예배 “나는 누구인가”',
+    title: '나는 누구인가',
     scripture: '',
     publishedAt: '2021-04-18T16:18:18Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/7RDCYS6f8dA/hqdefault.jpg',
@@ -1903,7 +1902,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'X445VKrjUC0',
     date: '2021-04-11',
-    title: '행복한교회 주일 낮 예배 “운명을 바꾼 사람”',
+    title: '운명을 바꾼 사람',
     scripture: '',
     publishedAt: '2021-04-11T15:10:02Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/X445VKrjUC0/hqdefault.jpg',
@@ -1912,7 +1911,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'VcgBRty-b2Y',
     date: '2021-04-04',
-    title: '행복한교회 주일 낮 예배 “길, 진리, 생명”',
+    title: '길, 진리, 생명',
     scripture: '',
     publishedAt: '2021-04-04T15:20:56Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/VcgBRty-b2Y/hqdefault.jpg',
@@ -1921,7 +1920,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'gUevFGgPF_M',
     date: '2021-03-28',
-    title: '행복한교회 주일 낮 예배 “자기 십자가의 신비”',
+    title: '자기 십자가의 신비',
     scripture: '',
     publishedAt: '2021-03-28T15:18:11Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/gUevFGgPF_M/hqdefault.jpg',
@@ -1930,7 +1929,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'CF6-YZvq5pI',
     date: '2021-03-21',
-    title: '행복한교회 주일 낮 예배 “네 짐을 여호와께 맡기라”',
+    title: '네 짐을 여호와께 맡기라',
     scripture: '',
     publishedAt: '2021-03-21T16:05:33Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/CF6-YZvq5pI/hqdefault.jpg',
@@ -1939,7 +1938,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'mqknp8JdKaY',
     date: '2021-03-07',
-    title: '행복한교회 주일 낮 예배 “새 영이 지배하는 사람”',
+    title: '새 영이 지배하는 사람',
     scripture: '',
     publishedAt: '2021-03-07T14:52:02Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/mqknp8JdKaY/hqdefault.jpg',
@@ -1948,7 +1947,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'plEpW6qbncg',
     date: '2021-03-01',
-    title: '4 행복한교회 주일 낮 예배 “믿음이 복이다”',
+    title: '믿음이 복이다',
     scripture: '',
     publishedAt: '2021-03-14T15:10:45Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/plEpW6qbncg/hqdefault.jpg',
@@ -1957,7 +1956,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'v4ALFs1F75A',
     date: '2021-03-01',
-    title: '4 행복한교회 주일 낮 예배 “믿음이 복이다”',
+    title: '믿음이 복이다',
     scripture: '',
     publishedAt: '2021-03-14T14:54:00Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/v4ALFs1F75A/hqdefault.jpg',
@@ -1966,7 +1965,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'lgMtkeUpYdg',
     date: '2021-02-28',
-    title: '행복한교회 주일 낮 예배 “더 나은 예배”',
+    title: '더 나은 예배',
     scripture: '',
     publishedAt: '2021-02-28T15:17:09Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/lgMtkeUpYdg/hqdefault.jpg',
@@ -1975,7 +1974,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'qHBV_7-w52A',
     date: '2021-02-21',
-    title: '행복한교회 주일 낮 예배 “기도응답의 기적”',
+    title: '기도응답의 기적',
     scripture: '',
     publishedAt: '2021-02-21T15:19:26Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/qHBV_7-w52A/hqdefault.jpg',
@@ -1984,7 +1983,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'T6Qw-t-U-m8',
     date: '2021-02-14',
-    title: '행복한교회 주일 낮 예배 “복 있는 사람”',
+    title: '복 있는 사람',
     scripture: '',
     publishedAt: '2021-02-14T15:02:18Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/T6Qw-t-U-m8/hqdefault.jpg',
@@ -1993,7 +1992,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'hRsqF_wESTo',
     date: '2021-02-07',
-    title: '행복한교회 주일 낮 예배 “뜨거워진 마음”',
+    title: '뜨거워진 마음',
     scripture: '',
     publishedAt: '2021-02-07T15:09:41Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/hRsqF_wESTo/hqdefault.jpg',
@@ -2002,7 +2001,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'G7OSqlvskxI',
     date: '2021-01-31',
-    title: '행복한교회 주일 낮 예배 “십일조의 약속”',
+    title: '십일조의 약속',
     scripture: '',
     publishedAt: '2021-01-31T15:16:25Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/G7OSqlvskxI/hqdefault.jpg',
@@ -2011,7 +2010,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'E33x9IhCIVM',
     date: '2021-01-24',
-    title: '행복한교회 주일 낮 예배 “천대의 은혜”',
+    title: '천대의 은혜',
     scripture: '',
     publishedAt: '2021-01-24T15:11:22Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/E33x9IhCIVM/hqdefault.jpg',
@@ -2020,7 +2019,7 @@ export const sermons: Sermon[] = [
   {
     videoId: '45l2IMXJim4',
     date: '2021-01-17',
-    title: '행복한교회 주일 낮 예배 “생명을 택하라”',
+    title: '생명을 택하라',
     scripture: '',
     publishedAt: '2021-01-17T15:08:50Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/45l2IMXJim4/hqdefault.jpg',
@@ -2029,7 +2028,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'gL-Po1T0wYQ',
     date: '2021-01-10',
-    title: '행복한교회 주일 낮 예배 “거룩한 축복의 환상”',
+    title: '거룩한 축복의 환상',
     scripture: '',
     publishedAt: '2021-01-10T15:02:53Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/gL-Po1T0wYQ/hqdefault.jpg',
@@ -2038,7 +2037,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'sdA4tprKmdY',
     date: '2021-01-03',
-    title: '행복한교회 주일 낮 예배 “먼저 가시는 하나님”',
+    title: '먼저 가시는 하나님',
     scripture: '',
     publishedAt: '2021-01-03T15:11:58Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/sdA4tprKmdY/hqdefault.jpg',
@@ -2065,7 +2064,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'euTW2eeyJcY',
     date: '2020-12-25',
-    title: '행복한교회 성탄감사예배 “성탄을 통해 주시는 축복”',
+    title: '성탄을 통해 주시는 축복',
     scripture: '',
     publishedAt: '2020-12-25T15:05:23Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/euTW2eeyJcY/hqdefault.jpg',
@@ -2074,7 +2073,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'Qy1FJop7Pu8',
     date: '2020-12-20',
-    title: '행복한교회 주일 낮 예배 “경배하러 왔노라”',
+    title: '경배하러 왔노라',
     scripture: '',
     publishedAt: '2020-12-20T15:03:37Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/Qy1FJop7Pu8/hqdefault.jpg',
@@ -2083,7 +2082,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'o7NQ-uDSV44',
     date: '2020-12-13',
-    title: '행복한교회 주일 낮 예배 “내게 말씀을 주소서”',
+    title: '내게 말씀을 주소서',
     scripture: '',
     publishedAt: '2020-12-13T15:03:34Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/o7NQ-uDSV44/hqdefault.jpg',
@@ -2092,7 +2091,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'DQkRyBIcCJ4',
     date: '2020-12-06',
-    title: '행복한교회 주일 낮 예배 “만민이 기도하는 집”',
+    title: '만민이 기도하는 집',
     scripture: '',
     publishedAt: '2020-12-06T15:34:32Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/DQkRyBIcCJ4/hqdefault.jpg',
@@ -2101,7 +2100,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'twA6sw6XCe8',
     date: '2020-11-29',
-    title: '행복한교회 주일 낮 예배 “날 계수함의 지혜”',
+    title: '날 계수함의 지혜',
     scripture: '',
     publishedAt: '2020-11-29T15:07:41Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/twA6sw6XCe8/hqdefault.jpg',
@@ -2119,7 +2118,7 @@ export const sermons: Sermon[] = [
   {
     videoId: 'BgYGNs144KU',
     date: '2020-11-15',
-    title: '행복한교회 주일 낮 예배 “감사의 행복”',
+    title: '감사의 행복',
     scripture: '',
     publishedAt: '2020-11-15T15:15:03Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/BgYGNs144KU/hqdefault.jpg',
@@ -2128,7 +2127,7 @@ export const sermons: Sermon[] = [
   {
     videoId: '68twB9g9G4E',
     date: '2020-11-08',
-    title: '행복한교회 주일 낮 예배 “범사에 감사”',
+    title: '범사에 감사',
     scripture: '',
     publishedAt: '2020-11-08T15:08:51Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/68twB9g9G4E/hqdefault.jpg',
@@ -2254,8 +2253,8 @@ export const sermons: Sermon[] = [
   {
     videoId: 'KyxjJuCFFZg',
     date: '2020-08-02',
-    title: '행복한교회 주일낮예배 “주여, 풀어주소서” (눅13:10-17)',
-    scripture: '',
+    title: '주여, 풀어주소서',
+    scripture: '(눅13:10-17)',
     publishedAt: '2020-08-02T16:37:50Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/KyxjJuCFFZg/hqdefault.jpg',
     preacher: '서인원',
@@ -2317,8 +2316,8 @@ export const sermons: Sermon[] = [
   {
     videoId: '250dFsm9nlM',
     date: '2020-05-03',
-    title: '주일예배 “어린이를 축복하라” (막10:13-16)',
-    scripture: '',
+    title: '어린이를 축복하라',
+    scripture: '(막10:13-16)',
     publishedAt: '2020-05-03T08:57:19Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/250dFsm9nlM/hqdefault.jpg',
     preacher: '서인원',
@@ -2326,8 +2325,8 @@ export const sermons: Sermon[] = [
   {
     videoId: 'BuGWTqtLoF8',
     date: '2020-04-26',
-    title: '주일예배 “생기야 불어와라” (겔37:7~10)',
-    scripture: '',
+    title: '생기야 불어와라',
+    scripture: '(겔37:7~10)',
     publishedAt: '2020-04-26T16:55:34Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/BuGWTqtLoF8/hqdefault.jpg',
     preacher: '서인원',
@@ -2335,8 +2334,8 @@ export const sermons: Sermon[] = [
   {
     videoId: 'mnHpEWNMvOY',
     date: '2020-04-19',
-    title: '주일예배 “받은 줄로 믿으라” (막 11:20~24)',
-    scripture: '',
+    title: '받은 줄로 믿으라',
+    scripture: '(막 11:20~24)',
     publishedAt: '2020-04-19T06:11:05Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/mnHpEWNMvOY/hqdefault.jpg',
     preacher: '서인원',
@@ -2344,8 +2343,8 @@ export const sermons: Sermon[] = [
   {
     videoId: 'IVsTleSHEa8',
     date: '2020-04-12',
-    title: '주일예배 “부활의 신비” (빌 3:7~12)',
-    scripture: '',
+    title: '부활의 신비',
+    scripture: '(빌 3:7~12)',
     publishedAt: '2020-04-12T09:28:27Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/IVsTleSHEa8/hqdefault.jpg',
     preacher: '서인원',
@@ -2353,8 +2352,8 @@ export const sermons: Sermon[] = [
   {
     videoId: '1ccLE4-Ifs4',
     date: '2020-04-05',
-    title: '주일예배 “십자가 곁에 있는 사람” (요19:23-27)',
-    scripture: '',
+    title: '십자가 곁에 있는 사람',
+    scripture: '(요19:23-27)',
     publishedAt: '2020-04-05T03:45:54Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/1ccLE4-Ifs4/hqdefault.jpg',
     preacher: '서인원',
@@ -2362,8 +2361,8 @@ export const sermons: Sermon[] = [
   {
     videoId: 'sFG3IZfzKJY',
     date: '2020-03-29',
-    title: '“끝까지 믿음을 지킨 사람” (욥19:23~27',
-    scripture: '',
+    title: '끝까지 믿음을 지킨 사람',
+    scripture: '(욥19:23~27',
     publishedAt: '2020-03-29T09:45:20Z',
     thumbnailUrl: 'https://i.ytimg.com/vi/sFG3IZfzKJY/hqdefault.jpg',
     preacher: '서인원',

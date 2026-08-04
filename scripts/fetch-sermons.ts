@@ -28,7 +28,7 @@ interface Sermon {
 }
 
 interface ParsedTitle {
-  date: string;
+  date?: string;
   title: string;
   scripture: string;
 }
@@ -55,8 +55,12 @@ const DATE_IN_PARENS_REGEX = /\((\d{2,4})\.\s*(\d{1,2})\.\s*(\d{1,2})\)/;
 const DATE_KOREAN_REGEX = /^(\d{4})년\s*(\d{1,2})월\s*(\d{1,2})일\s*(.*)/;
 
 // 예: '"겨자씨의 믿음" 마태복음 17:14-21' 에서 따옴표로 감싸진 설교 제목과 뒤에 남는 본문 구절을 분리
-// 유튜브 제목에 혼용된 여러 유니코드 따옴표(", ", ", ")를 모두 후보로 둠
-const QUOTED_TITLE_REGEX = /["""“]([^"""“]+)["""“]\s*(.*)/;
+// 유튜브 제목에 혼용된 여러 유니코드 따옴표(U+0022 ", U+201C “, U+201D ”)를, 여닫는 순서가
+// 뒤바뀐 오타까지 포함해 양쪽 모두 같은 후보군으로 허용해 매치한다
+const QUOTE_CHARS = '"“”';
+const QUOTED_TITLE_REGEX = new RegExp(
+  `[${QUOTE_CHARS}]([^${QUOTE_CHARS}]+)[${QUOTE_CHARS}]\\s*(.*)`,
+);
 
 function normalizeYear(year: string): string {
   return year.length === 2 ? `20${year}` : year;
@@ -103,6 +107,13 @@ function parseTitle(rawTitle: string): ParsedTitle | undefined {
     const [year, month, day] = inParens.slice(1);
     const rest = rawTitle.slice(0, inParens.index).trim();
     return { date: toDateString(year, month, day), ...parseContent(rest) };
+  }
+
+  // 날짜 정보 자체가 제목에 없는 경우: 날짜 없이 따옴표 안 제목/본문 구절만이라도 뽑아낸다.
+  // date는 undefined로 두고, 호출부에서 publishedAt으로 폴백한다.
+  const content = parseContent(rawTitle);
+  if (content.title !== rawTitle.trim()) {
+    return content;
   }
 
   return undefined;

@@ -1,4 +1,6 @@
+import SermonGrid from '@/components/sermon/SermonGrid';
 import PageHeader from '@/components/ui/PageHeader';
+import { sermons } from '@/data/sermons';
 
 export default function Page() {
   return (
@@ -10,7 +12,8 @@ export default function Page() {
           description="함께한 예배의 말씀을 다시 들을 수 있습니다"
         />
       </div>
-      <div className="flex h-10 items-center gap-3 bg-ivory px-6 py-10">
+
+      <div className="mb-12 flex h-10 items-center gap-3 border-t border-b border-cream/40 bg-cream/20 px-6 py-10">
         {/* 원마커 */}
         <div className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-cream bg-white">
           <div className="h-1.5 w-1.5 rounded-full bg-cream" />
@@ -19,6 +22,7 @@ export default function Page() {
           현재 예배 영상 촬영이 중단되어 최신 영상이 업데이트되지 않고 있습니다.
         </p>
       </div>
+      <SermonGrid sermons={sermons} />
     </>
   );
 }
