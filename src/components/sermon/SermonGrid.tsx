@@ -21,7 +21,7 @@ export default function SermonGrid({ sermons }: SermonGridProps) {
   const hasMore = visibleCount < sermons.length;
 
   return (
-    <div className="px-15 pb-20">
+    <div className="px-8 pb-20 lg:px-15">
       <div className="grid grid-cols-1 gap-x-10 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
         {visibleSermons.map((sermon) => (
           <SermonCard
