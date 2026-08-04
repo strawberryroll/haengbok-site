@@ -1,6 +1,7 @@
 {
   "name": "haengbok-site",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "packageManager": "pnpm@11.5.2",
   "scripts": {
@@ -33,6 +34,7 @@
     "prettier": "3.8.4",
     "prettier-plugin-tailwindcss": "^0.8.0",
     "tailwindcss": "^4",
+    "tsx": "^4.23.1",
     "typescript": "^5"
   },
   "lint-staged": {
