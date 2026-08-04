@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'placehold.co',
       },
+      { protocol: 'https', hostname: 'i.ytimg.com' },
     ],
   },
 };
