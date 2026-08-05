@@ -2,7 +2,30 @@ import { Card, CardContent, CardDescription } from '@/components/ui/Card';
 import Divider from '@/components/ui/Divider';
 import PageHeader from '@/components/ui/PageHeader';
 import SectionHeading from '@/components/ui/SectionHeading';
-import { CalendarHeart, Users } from 'lucide-react';
+import { CalendarHeart, type LucideIcon, Users } from 'lucide-react';
+
+interface AboutItem {
+  icon: LucideIcon;
+  description: React.ReactNode;
+}
+
+const aboutItems: AboutItem[] = [
+  {
+    icon: Users,
+    description:
+      '목장은 삶의 자리가 비슷한 성도들이 모여 말씀을 나누고 기도하며 서로의 삶을 돌보는 소그룹입니다.',
+  },
+  {
+    icon: CalendarHeart,
+    description: (
+      <>
+        주일 예배와 연계하여 매월 첫째·셋째주 주일에 함께 모여 교제하며,
+        <br />
+        주일 예배만으로 채워지지 않는 돌봄과 나눔이 목장 안에서 이루어집니다.
+      </>
+    ),
+  },
+];
 
 interface CellGroupItem {
   name: string;
@@ -52,30 +75,18 @@ export default function Page() {
         {/* 목장이란 */}
         <div className="flex flex-col gap-6 pt-15">
           <SectionHeading eyebrow="ABOUT" title="목장이란" />
-          <Card className="bg-ivory">
-            <CardContent className="flex items-start gap-5">
-              <div className="shrink-0">
-                <Users className="text-cream" />
-              </div>
-              <CardDescription className="text-base text-description">
-                목장은 삶의 자리가 비슷한 성도들이 모여 말씀을 나누고 기도하며
-                서로의 삶을 돌보는 소그룹입니다.
-              </CardDescription>
-            </CardContent>
-          </Card>
-          <Card className="bg-ivory">
-            <CardContent className="flex items-start gap-5">
-              <div className="shrink-0">
-                <CalendarHeart className="text-cream" />
-              </div>
-              <CardDescription className="text-base text-description">
-                주일 예배와 연계하여 매월 첫째·셋째주 주일에 함께 모여 교제하며,
-                <br />
-                주일 예배만으로 채워지지 않는 돌봄과 나눔이 목장 안에서
-                이루어집니다.
-              </CardDescription>
-            </CardContent>
-          </Card>
+          {aboutItems.map((item, index) => (
+            <Card key={index} className="bg-ivory">
+              <CardContent className="flex items-start gap-5">
+                <div className="shrink-0">
+                  <item.icon className="text-cream" />
+                </div>
+                <CardDescription className="text-base text-description">
+                  {item.description}
+                </CardDescription>
+              </CardContent>
+            </Card>
+          ))}
         </div>
 
         {/* 목장들 */}
@@ -91,7 +102,7 @@ export default function Page() {
           <div className="grid grid-cols-2 gap-5">
             {cellGroupsData.map((group) => (
               <Card key={group.name} className="gap-0 overflow-hidden">
-                <div className="h-1.5 w-full bg-cream/40" />
+                <div className="h-2 w-full bg-cream/30" />
                 <CardContent className="flex flex-col gap-2 p-5">
                   <p className="text-lg font-semibold text-charcoal">
                     {group.name}
