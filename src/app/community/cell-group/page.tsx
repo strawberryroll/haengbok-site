@@ -4,7 +4,7 @@ import PageHeader from '@/components/ui/PageHeader';
 import SectionHeading from '@/components/ui/SectionHeading';
 import { CalendarHeart, type LucideIcon, Users } from 'lucide-react';
 
-interface AboutItem {
+export interface AboutItem {
   icon: LucideIcon;
   description: React.ReactNode;
 }
