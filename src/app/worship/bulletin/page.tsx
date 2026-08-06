@@ -14,7 +14,7 @@ interface ServantGroup {
   name: string[];
 }
 
-const BULLETIN_URL =
+export const BULLETIN_URL =
   'https://drive.google.com/drive/folders/1nOFK3M3l3NOzHvzyENtvo-7riFo_u0v1?usp=sharing';
 
 const monthlyEventsData: MonthlyEventItem[] = [
