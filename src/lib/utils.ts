@@ -12,3 +12,7 @@ export function formatSermonDate(date: string): string {
     day: 'numeric',
   });
 }
+
+export function formatNoticeDate(date: string): string {
+  return date.replaceAll('-', '.');
+}
