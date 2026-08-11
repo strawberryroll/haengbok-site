@@ -1,8 +1,12 @@
 'use client';
 
 import { Notice } from '@/data/notices';
+import {
+  getStoredNoticesSnapshot,
+  subscribeToStoredNotices,
+} from '@/lib/notices-storage';
 import { cn } from '@/lib/utils';
-import { useState } from 'react';
+import { useState, useSyncExternalStore } from 'react';
 import NoticeRow from './NoticeRow';
 
 interface NoticeListProps {
@@ -11,8 +15,25 @@ interface NoticeListProps {
 
 const PAGE_SIZE = 6;
 
-export default function NoticeList({ notices }: NoticeListProps) {
+// getServerSnapshot에서 매번 새 배열을 만들면 useSyncExternalStore가
+// "값이 바뀌었다"고 오인해 리렌더링을 반복하므로, 빈 배열을 하나만 만들어 재사용한다.
+const EMPTY_NOTICES: Notice[] = [];
+
+export default function NoticeList({
+  notices: initialNotices,
+}: NoticeListProps) {
   const [currentPage, setCurrentPage] = useState(1);
+
+  // localStorage(React 바깥의 데이터)를 구독해 작성 폼에서 저장한 글을 읽어온다.
+  // 서버에는 localStorage가 없으므로 서버 렌더링 시엔 EMPTY_NOTICES를 사용해
+  // hydration mismatch를 피하고, 클라이언트에서 mount된 뒤 실제 값으로 바뀐다.
+  const storedNotices = useSyncExternalStore(
+    subscribeToStoredNotices,
+    getStoredNoticesSnapshot,
+    () => EMPTY_NOTICES,
+  );
+  // localStorage에 저장된 글(최신순) + 정적 데이터(notices.ts)를 합쳐서 렌더링
+  const notices = [...storedNotices, ...initialNotices];
 
   const pinned = notices.filter((notice) => notice.isPinned);
   const regular = notices.filter((notice) => !notice.isPinned);

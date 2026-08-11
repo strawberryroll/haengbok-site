@@ -3,6 +3,7 @@ import Button from '@/components/ui/Button';
 import PageHeader from '@/components/ui/PageHeader';
 import { notices } from '@/data/notices';
 import { Pencil } from 'lucide-react';
+import Link from 'next/link';
 
 export default function Page() {
   return (
@@ -16,10 +17,12 @@ export default function Page() {
       </div>
       <div className="px-6 pt-15 pb-25">
         <div className="flex justify-end pb-6">
-          <Button variant="outline" size="sm">
-            <Pencil className="text-charcoal/50" />
-            글쓰기
-          </Button>
+          <Link href="/notice/write">
+            <Button variant="outline" size="sm">
+              <Pencil className="text-charcoal/50" />
+              글쓰기
+            </Button>
+          </Link>
         </div>
         <NoticeList notices={notices} />
       </div>
