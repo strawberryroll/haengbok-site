@@ -5,7 +5,6 @@ import { Card, CardContent } from '@/components/ui/Card';
 import Checkbox from '@/components/ui/Checkbox';
 import Input from '@/components/ui/Input';
 import Label from '@/components/ui/Label';
-import PageHeader from '@/components/ui/PageHeader';
 import Textarea from '@/components/ui/Textarea';
 import { Notice } from '@/data/notices';
 import { addStoredNotice } from '@/lib/notices-storage';
@@ -37,15 +36,11 @@ export default function Page() {
   };
 
   return (
-    <>
-      <div className="bg-cream-light px-6 pb-15">
-        <PageHeader
-          eyebrow="NOTICES"
-          title="공지사항 작성"
-          description="새로운 공지사항을 작성해 주세요"
-        />
-      </div>
-      <div className="px-6 pt-15 pb-25">
+    <div className="px-6 pt-10 pb-16 md:pt-20 md:pb-25">
+      <div className="mx-auto flex max-w-3xl flex-col gap-6 md:gap-8">
+        <h1 className="text-2xl font-bold text-charcoal md:text-3xl">
+          공지사항 작성
+        </h1>
         <Card>
           <CardContent>
             <form onSubmit={handleSubmit} className="flex flex-col gap-6">
@@ -92,6 +87,6 @@ export default function Page() {
           </CardContent>
         </Card>
       </div>
-    </>
+    </div>
   );
 }
